@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My Landing Page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="shortcut icon" href="img/dash.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@352;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1><span><i>Developer Trainee &#x1F393;</i></span></h1>
+        <h4>Cristopher Diaz</h4>
+    </header>
+    <div class="nav-bg">
+        <nav class="navegacion-principal contenedor">
+            <a href="#">Inicio &#x1F3E0;</a>
+            <a href="#sobre-mi">Sobre mi &#x1F4DD;</a>
+            <a href="#servicios">Servicios &#x1F4BC;</a>
+            <a href="#contacto">Contacto &#x1F4AC;</a>
+        </nav>
+    </div>
+    <section class="hero">
+        <div class="hero-contenido">
+            <h2 class="titulo" id="sobre-mi">Técnico Universitario en Electrónica <br>
+                Desarrollador Nivel Junior
+            </h2>
+
+            <p class="descripcion">
+                Conocimiento Técnico en Electrónica, mantención a equipos
+                industriales y de corrientes debiles. <br>
+                Perfil de desarrollador Front-End Junior.
+            </p>
+            <details>
+                <summary>Ver Mi Curriculum</summary>
+                
+                Visita mi CV desde el siguiente link &#x23E9; <a href="pdf/CV-Cristopher Diaz.pdf" target="_blank">Mi CV</a>
+                
+            </details>
+            
+            <div class="ubicacion">
+                <img class="icon" src="img/localizacion.png" alt="ubicacion">
+                <p>Viña del Mar, Chile</p>
+            </div>
+            <div>
+                <a class="boton" href="#contacto">Contactar</a>
+            </div>
+        </div>
+    </section>
+
+    <main class="contenedor sombra">
+        <h2 class="titulo" id="servicios">Mis servicios</h2>
+        <div class="servicios">
+            <section class="servicio">
+                <h3 class="subtitulo">Electrónica</h3>
+                <div class="iconos">
+                    <img class="icons" src="img/electronica.png" alt="Electrónica">
+
+                </div>
+                <p>
+                    Especialista en montaje industrial, transformadores de distribución
+                    eléctrica. Proyectos electricos y de corrientes debiles, intalador de
+                    sistemas de seguridad.
+                </p>
+            </section>
+
+            <section class="servicio">
+                <h3 class="subtitulo">Diseño Web</h3>
+                <div class="iconos">
+                    <img class="icons" src="img/diseño.png" alt="Electrónica">
+
+                </div>
+                <p>
+                    Poseo conocimientos en HTML, CSS y Frameworks
+                    relacionados al diseño web (Bootstrap) a nivel Junior.
+
+                </p>
+            </section>
+            <section class="servicio">
+                <h3 class="subtitulo">Aplicaciones Web</h3>
+                <div class="iconos">
+                    <img class="icons" src="img/web.png" alt="Electrónica">
+
+                </div>
+                <p>
+                    Desarrolador de aplicaciones web nivel Junior
+                    con conocimientos en el lenguaje de JavaSrip y
+                    en los Frameworks Angular.js, Vue.js nivel básico.
+                </p>
+            </section>
+
+            <!---->
+
+        </div>
+        <!-- formulario-->
+        <div class="form-container" id="contacto">
+            <h2 class="titulo">Formulario de Contacto</h2>
+            <form class="formulario" action="">
+                <fieldset>
+                    <legend>Dejame un mensaje! Solo debes completar el formulario.</legend>
+                    <div class="campo-contenedor">
+                        <div class="campo">
+                            <label for="name">Nombre:</label><br>
+                            <input class="input-test" type="email" name="" id="name">
+                        </div>
+                        <div class="campo">
+                            <label for="email">Correo:</label><br>
+                            <input class="input-test" type="text" name="" id="email">
+                        </div>
+                        <div class="campo">
+                            <label for="message">Mensaje:</label><br>
+                            <textarea class="input-test" name="" id="message" cols="30" rows="10"></textarea>
+                        </div>
+                    </div>
+                    <div class="alinear-derecha flex">
+                        <input class="boton w-sm-100" type="submit">
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>
+            Todos los derechos reservados - 2021 Taller Front-End.
+        </p>
+    </footer>
+
+</body>
+
+</html>
