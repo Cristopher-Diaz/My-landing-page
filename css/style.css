@@ -279,10 +279,10 @@ legend{
     font-size: 25px;
     text-align: center;
 }
-
-fieldset{
-    border: 0;
+textarea{
+    width: 80%;
 }
+
 
 .footer{
     width: 90%;
@@ -339,11 +339,16 @@ fieldset{
         flex-direction: column;
         margin: 0  auto;
     }
+
     label{
         width: 90%;
         padding-bottom: 5px;
         text-align: center;
         font-size: 25px;
     }
+    textarea{
+        width: 80%;    
+    }
+    
 }
 
