@@ -269,6 +269,7 @@ label{
 }
 .input-test{
     padding: 5px;
+    width: 70%;
 }
 
 .formulario .boton{
@@ -338,6 +339,10 @@ textarea{
         display: flex;
         flex-direction: column;
         margin: 0  auto;
+    }
+    .input-test{
+        padding: 5px;
+        width: 80%;
     }
 
     label{
